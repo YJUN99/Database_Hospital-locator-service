@@ -115,7 +115,7 @@ def analysis_symp():
 
 def load_hospital_data(mysi,mygu,mydong):
     target_hospital = max_point_hospital
-    connection = sqlite3.connect('Hosital_info.db')
+    connection = sqlite3.connect('Hospital_info.db')
     cursor = connection.cursor()
     cursor.execute(f"drop view if exists searchresult")
     cursor.execute(f"create view searchreSult as SELECT hinfo.요양기관명, 진료과목코드명 , 주소,전화번호,과목별전문의수 ,총의사수, x좌표,y좌표 \
