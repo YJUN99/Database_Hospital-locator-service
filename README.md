@@ -2,7 +2,7 @@
 # 데이터베이스 프로젝트
 
 **201801734 김용준**
-# Notice : DBfile is included in googledrive : https://drive.google.com/file/d/1uapAkPEsvOORFlgwSC14cG-hKesnD-s8/view?usp=share_link
+### Notice : DB file is being shared through Google Drive. : https://drive.google.com/file/d/1uapAkPEsvOORFlgwSC14cG-hKesnD-s8/view?usp=share_link
 # 자연어처리기반 병원 추천시스템
 
 ## 설계 목적 및 배경
