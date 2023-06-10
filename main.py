@@ -136,8 +136,8 @@ def load_hospital_data(mysi,mygu,mydong):
     get_image(cursor.fetchone())
 
 def get_image(coordinate):
-    client_id = "0r6b6bcd3x"
-    client_secret = "O6Kv2rPejk2y1fDddXoGAcE14d0Wwy2p846Of5bz"
+    client_id = "your API ID"
+    client_secret = "your API secret"
     
     endpoint = "https://naveropenapi.apigw.ntruss.com/map-static/v2/raster"
     headers = {
